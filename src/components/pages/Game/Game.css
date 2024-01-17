@@ -1,0 +1,17 @@
+.game-board {
+    border: 1px black solid;
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.game-row {
+    display: flex;
+  }
+  
+  .game-square {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000; 
+    margin: 2px; 
+  }
