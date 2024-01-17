@@ -51,7 +51,11 @@ Features:
 
 ### Challenges
 
-Getting started 
+We planned using a wireframe
+
+Upon loading you can click on 'Home' and see the home page, as shown below. 
+
+![Wireframe](./src/assets/images/Wireframe.png)
 
 ### Credit
 
