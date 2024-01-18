@@ -1,8 +1,16 @@
 import React from 'react';
 import "./Game.css"; 
 import { Container, Row, Col, Button } from 'react-bootstrap';
+import MotivationButton from '../../Giphy/GameMotivation';
 
-const Game = () => {
+const Game = (props) => {
+  const handleMotivateClick = () => {
+    setShowModal(true);
+    console.log("Motivate Me button clicked!");
+
+  };
+
+  console.log("This is motivation in game jsx",props)
   return (
     <Container className="mt-5">
       {/* Game Board */}
@@ -46,7 +54,7 @@ const Game = () => {
           <p className="m-0">or</p>
         </Col>
         <Col className="text-right">
-          <Button variant="success">Motivation</Button>
+          <MotivationButton />
         </Col>
       </Row>
 
